@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+    <link href="animate.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Test Netflix</title>
+</head>
+<body>
+    <!-- Header -->
+     <header class="header">
+        <div class="container">
+            <div class="header-box">
+                <div class="header-logo wow heartBeat">
+                    <a href="#"><img src="img/netflix-logo-png-2562 1.png" alt=""></a> 
+                    <span> | </span> 
+                    <p> Friday July 8th</p>
+                </div>
+                <div class="search-box">
+                    <div class="search">
+                        <div>
+                            <input type="text" placeholder="Search . . ." required>
+                        </div>
+                    </div>
+                    <div class="account">
+                        <img src="img/Ellipse 2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- About Film -->
+    <div class="contentn-container">
+        <div class="block-text">
+            <!-- Text -->
+            <div class="content-block wow bounceInLeft">
+                <div class="genre">
+                    <h4>Drama |  Thriller | Supernatural </h4>
+                </div>
+                <h1>Stranger Things</h1>
+                <div class="about-film">2019   |   DIRECTOR: <span>Shawn Levy</span>   |  seasons: <span>3 (5 Episodes)</span></div>
+                <span> In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries.</span>
+            </div>
+            <!-- Raiting stars -->
+            <div class="Rating-block">
+                <form>
+                    <div class="form-group wow bounceInRight">
+                        <div class="star-rating">
+                            <div class="star-rating__wrap">
+                                <input class="star-rating__input" id="star-5" type="radio" name="rating" value="5">
+                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-5" title="Отлично"></label>
+                                <input class="star-rating__input" id="star-4" type="radio" name="rating" value="4">
+                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-4" title="Хорошо"></label>
+                                <input class="star-rating__input" id="star-3" type="radio" name="rating" value="3">
+                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-3" title="Удовлетворительно"></label>
+                                <input class="star-rating__input" id="star-2" type="radio" name="rating" value="2">
+                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-2" title="Плохо"></label>
+                                <input class="star-rating__input" id="star-1" type="radio" name="rating" value="1">
+                                <label class="star-rating__ico fa fa-star-o fa-lg" for="star-1" title="Ужасно"></label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- Buttons -->
+            <div class="content-button wow bounceInUp">
+                <div class="button-stream">
+                    <button class="btn"> <span>STREAM NOW</span><img src="img/Vector.png" alt=""></button>
+                </div>
+                <div class="button-episodes">
+                    <button class="btn2"> <span>ALL EPISODES</span></button>
+                </div>
+            </div>
+        </div> 
+        <!-- Animation -->
+        <div id="circles"></div>
+    </div>
+    <!-- Popular films -->
+    <div class="popular-block">
+        <h2>POPULAR THIS WEEK</h2>
+        <!-- Popular container -->
+        <div class="popular-container">
+            <!-- Carusel -->
+            <div class="carousel-block wow rotateIn">
+                <div id="wrapper">
+                    <div id="carousel">
+                        <div id="content">
+                            <img class="item"src="img/Rectangle 6.png"/>
+                            <img src="img/Rectangle 7.png"class="item"/>
+                            <img src="img/Rectangle 8.png"class="item"/>
+                            <img src="img/Rectangle 9.png"class="item"/>
+                            <img src="img/Rectangle 11.png"class="item"/>
+                            <img src="img/Rectangle 6.png"class="item"/>
+                            <img src="img/Rectangle 7.png"class="item"/>
+                            <img src="img/Rectangle 8.png"class="item"/>
+                            <img src="img/Rectangle 9.png" class="item"/>
+                            <img src="img/Rectangle 11.png" class="item"/>
+                        </div>
+                    </div>
+                    <button id="prev">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="none" d="M0 0h24v24H0V0z" />
+                        <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                      </svg>
+                    </button>
+                    <button id="next">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="none" d="M0 0h24v24H0V0z" />
+                        <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                      </svg>
+                    </button>
+                </div>
+            </div>
+            <!-- Mark -->
+            <div class="mark">
+                <div id="rectangle">
+                    <div class="rectangle2"></div>
+                    <span>16+</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="wow.min.js"></script>
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
+    <script src="p5.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
